@@ -1,9 +1,9 @@
 
 import React from 'react'
-import BuscaBus from './components/BuscaBus'
+import Header from './components/Header'
 
 function App() {
-  return <BuscaBus/>
+  return <Header/>
 }
 
 export default App;
