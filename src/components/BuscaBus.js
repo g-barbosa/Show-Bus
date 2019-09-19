@@ -12,7 +12,7 @@ function BuscaBus(props) {
     .get('https://noxxonsat-nxnet.appspot.com/rest/usuarios/v2?linha='+props.linha, {
       headers: {
         'Content-Type': 'application/json' ,
-        'Authorization': 'ENTRE NO SITE DA EMTU PARA PEDIR UM CHAVE DE ACESSO'
+        'Authorization': 'ENTRE NO SITE DA EMTU PARA PEDIR UMA CHAVE DE ACESSO'
       }
     })
     .then(response => {
@@ -51,7 +51,7 @@ function BuscaBus(props) {
                   <Tabela 
                   linha={i.linha} 
                   sentido={i.sentido} 
-                  arada={i.ponto} 
+                  parada={i.ponto} 
                   latitude={i.latitude} 
                   longitude={i.longitude}/>
                 )
