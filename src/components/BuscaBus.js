@@ -12,7 +12,7 @@ function BuscaBus(props) {
     .get('https://noxxonsat-nxnet.appspot.com/rest/usuarios/v2?linha='+props.linha, {
       headers: {
         'Content-Type': 'application/json' ,
-        'Authorization': 'Basic YmxvZ3Nkb2dpbzpibG9nc2RvZ2lvQDEyMzQ1Ng=='
+        'Authorization': 'ENTRE NO SITE DA EMTU PARA PEDIR UM CHAVE DE ACESSO'
       }
     })
     .then(response => {
